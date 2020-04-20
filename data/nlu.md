@@ -1,0 +1,274 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- Ok
+- Bye
+
+## intent:thank
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- thanks
+- thank you
+- thanks and bye
+
+## intent:affirm
+- correct
+- ye
+- uh yes
+- let's do it
+- yeah
+- um yes
+- yes knocking
+- that's correct
+- yes yes
+- right
+- yea
+- yes
+- yes right
+- yes and i dont care
+- right on
+- i love that
+
+## intent:ask_rating
+- start feedback
+- I want to provide feedback
+- begin feedback
+- rating
+- I want to give feedback
+- I want to give rating
+- Feedback
+- Begin Feedback
+- feedback please
+- give feedback
+- i want to give feedback
+- start rating
+- start feedback process
+
+## intent:feedback
+- great feedback
+- nice going
+- great work
+- nice work
+- great
+- not great feedback
+- not nice
+- need improvement
+- time waste
+- not helpful
+- Impressive
+- Unstriking
+
+## intent:contact_sales
+- I wanna talk to your sales people.
+- I want to talk to your sales people
+- I want to speak with sales
+- Sales
+- Please schedule a sales call
+- Please connect me to someone from sales
+- I want to get in touch with your sales guys
+- I would like to talk to someone from your sales team
+- sales please
+- How can i contact the team ?
+- I also want to book a sales call
+- I want a sales call
+- I want to contact sales
+- I want to contact sales team
+- I want to learn more about your pricing
+- I want to talk with sales about our project
+- sales team please
+- I would like to have a demo scheduled
+- book a sales call
+- book sales call
+- book sales
+- call sales
+- can i speak to the sales team
+- can i talk to a sales representative
+- can you connect me to sales
+- get me the sales team
+- give me someone who can explain your business model
+- how to book a sales call
+- i want to book a appointment
+- i want to contact sales support
+- let me talk to your sales people
+- ok i want to talk to your sales guys
+- sales department
+- sales team connection
+- connect to sales
+- set up with sales team
+- I want to connect with Sales
+- Connect to Sales Team please
+
+## intent:inform
+- [100k](budget)
+- [200K](budget)
+- [240k/year](budget)
+- [150,000 USD](budget)
+- $1
+- 1 euro
+- 10000 dollars
+- 10000000
+- 100000k
+- 10000k
+- 100k
+- 150,000 USD
+- 150,000$/ year
+- 2 euro
+- 20k
+- 240k/year
+- 400 trilion
+- 5 bucks
+- 5 euros
+- 5 mln
+- 50,000 dollar
+- 50,000,000 INR
+- 50k
+- 60 million INR
+- 75000-150000 euro
+- I work for [ABC](company)
+- The name of the company is [ABCD](company)
+- company: [Abc Technologies](company)
+- it's a small company from the US, the name is [Abcd](company)
+- it's a tech company, [XYZ](company)
+- [MNO](company)
+- [Xyz Technologies](company)
+- [email@abc.de](business_email)
+- [bot-fan@bots.com](business_email)
+- [email@firma.de](business_email)
+- [email@bots.com](business_email)
+- [myemailemail@email.com](business_email)
+- [engineer](job_function)
+- [brand manager](job_function)
+- [marketing](job_function)
+- [manager](job_function)
+- [sales manager](job_function)
+- [growth manager](job_function)
+- [CTO](job_function)
+- [CEO](job_function)
+- [COO](job_function)
+- [Abc De](person_name)
+- [Xyz De](person_name)
+- [Max](person_name)
+- [MadMax](person_name)
+- We plan to build a [sales bot](use_case) to increase our sales by 500%.
+- we plan to build a [sales bot](use_case) to increase our revenue by 100%.
+- a [sales tool](use_case) that consults potential customers on the best life insurance to choose.
+- we're building a [conversational assistant](use_case) for our employees to book meeting rooms.
+- [consultant](job_function)
+- [interactive assistant](use_case) project
+- [100K INR](budget)
+- [abhibot](person_name)
+- [freelance](company)
+- [abhibot@bot.com](business_email)
+- [support](use_case) project
+- [fifty thousand inr](budget)
+- [one million usd](budget)
+- [abhishek](person_name)
+- [kompani](company)
+- [abc@bot.com](business_email)
+- [systems upgrade](use_case)
+- [100K](budget)
+- [vinay](person_name)
+- [botfarm](company)
+- [vinay@botfarm.com](business_email)
+- [program manager](job_function)
+- [cloud migration](use_case) project
+- [250K USD](budget)
+- [wilson h](person_name)
+- [ItBp Ltd.](company)
+- [wilson@itbp.cln](business_email)
+- additional support contract for 6 months
+- [Engineer](job_function)
+- [L1/L2 Support](use_case)
+- [120K](budget)
+- [O. Heck](person_name)
+- [Sioux Falls](company)
+- [OHeck@SF.com](business_email)
+- weekend support
+- [L3 Support](use_case)
+- [50K USD](budget)
+- [Dodd](person_name)
+- [Butch](company)
+- [dodd@butch.com](business_email)
+- NA
+- [Sales Director](job_function)
+- Plan is to build a [chat bot](use_case) to help in daily functions
+- [200K USD](budget)
+- [Emmit Stussy](person_name)
+- [Stussy Lots Pvt Ltd](company)
+- [emmits@stussylots.com](business_email)
+
+## intent:stop
+- ok then you cant help me
+- that was shit, you're not helping
+- you can't help me
+- you can't help me with what i need
+- i guess you can't help me then
+- ok i guess you can't help me
+- that's not what i want
+- ok, but that doesnt help me
+- this is leading to nothing
+- this conversation is not really helpful
+- you cannot help me with what I want
+- I think you cant help me
+- hm i don't think you can do what i want
+- stop
+- stop go back
+- do you get anything?
+- and you call yourself company? pff
+- and that's it?
+- nothing else?
+- I don't want to share that
+- why do you need that?
+
+## intent:chitchat
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- May I ask who invented you?
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about your creators
+- tell me more about your founders
+- Ahoy matey how are you?
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+- How is the weather today?
+- What's the weather like?
+- How is the weather?
+- What is the weather at your place?
+- Do you have good weather?
+- Is it raining?
+- What's it like out there?
+- Is it hot or cold?
+- Beautiful day, isn't it?
+- What's the weather forecast?
+- Is it quite breezy outside?

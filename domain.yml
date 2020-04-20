@@ -1,0 +1,113 @@
+actions:
+- utter_ask_additional_information
+- utter_ask_bad_rating
+- utter_ask_budget
+- utter_ask_business_email
+- utter_ask_company
+- utter_ask_good_rating
+- utter_ask_job_function
+- utter_ask_person_name
+- utter_ask_rating
+- utter_ask_use_case
+- utter_chitchat
+- utter_default
+- utter_greet
+- utter_noworries
+- utter_slots_values
+entities:
+- additional_information
+- budget
+- business_email
+- company
+- job_function
+- person_name
+- rating
+- use_case
+forms:
+- get_rating_form
+- sales_form
+intents:
+- feedback
+- greet
+- goodbye
+- inform
+- contact_sales
+- ask_rating
+- stop
+- thank
+- affirm
+- chitchat:
+    use_entities: []
+responses:
+  utter_ask_additional_information:
+  - text: Any addition information (reference, url, wireframes, mockups etc...) that
+      you would like to share with us.
+  utter_ask_bad_rating:
+  - text: Thanks {person_name} for sharing your feedback. We’re sorry your experience
+      didn't match your expectations. It was an uncommon instance and we’ll do better.Please
+      feel free reach out to [leadai@xyz.com](mailto:leadai@xyz.com) with any further comments, concerns, or
+      suggestions you wish to share. We would love to make things right if you give
+      us another chance.
+  utter_ask_budget:
+  - text: What's your annual budget for the project? 💸
+  utter_ask_business_email:
+  - text: What's your business email?
+  utter_ask_company:
+  - text: What company do you work for?
+  utter_ask_good_rating:
+  - text: Thanks {person_name} for leaving us such a wonderful review. We are thrilled
+      that you loved your experience. We put customer experience and satisfaction
+      as our priority, and your review reaffirms the hard work we put in every day.
+      Look forward to seeing you again.
+  utter_ask_job_function:
+  - text: What's your job? 🕴
+  utter_ask_person_name:
+  - text: What's your name?
+  utter_ask_rating:
+  - buttons:
+    - payload: '/feedback{"rating": "Impressive"}'
+      title: 👍
+    - payload: '/feedback{"rating": "Unstriking"}'
+      title: 👎
+    text: How was your experience with us?
+  utter_ask_use_case:
+  - text: What's your use case?
+  utter_chitchat:
+  - text: I'm sorry I couldn't help you. Please let me know if you have any suggestions
+      for how I can improve.
+  utter_default:
+  - text: Sorry, I didn't understand you, please try something else.
+  utter_greet:
+  - text: Hi! I am your Lead AI from XYZ Ltd. We provide high quality and cost-effective
+      solutions. What are you looking for today?
+  utter_noworries:
+  - text: No worries! 😄
+  - text: Awesome, thanks! 👍
+  - text: Bye, was nice talking to you! 😄
+  utter_slots_values:
+  - text: "All done {person_name}. Thanks for getting in touch, we have all the required\
+      \ information.\n - budget: {budget}\n - use_case: {use_case}\n - company: {company}\n\
+      \ - job_function: {job_function}\n Our Business Experts get in touch with you\
+      \ soon @ {business_email}, to make your project a reality!"
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  additional_information:
+    type: unfeaturized
+  budget:
+    type: unfeaturized
+  business_email:
+    type: unfeaturized
+  company:
+    type: unfeaturized
+  job_function:
+    type: unfeaturized
+  person_name:
+    type: unfeaturized
+  rating:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  use_case:
+    type: unfeaturized
