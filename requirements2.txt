@@ -171,7 +171,7 @@ wcwidth==0.1.9
 webexteamssdk==1.1.1
 websocket-client==0.54.0
 websockets==8.1
-Werkzeug==1.0.1
+Werkzeug==3.0.6
 wrapt==1.12.1
 yarl==1.4.2
 zipp==3.1.0
